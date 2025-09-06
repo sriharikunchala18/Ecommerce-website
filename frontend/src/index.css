@@ -1,0 +1,18 @@
+/* Minimal styles */
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f7fafc; margin:0; }
+.container { max-width:1100px; margin:0 auto; padding:0 16px; }
+.bg-white { background:#fff; }
+.rounded { border-radius:8px; }
+.shadow { box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.p-4 { padding:16px; }
+.p-6 { padding:24px; }
+.mt-6 { margin-top:24px; }
+.mb-4 { margin-bottom:16px; }
+.flex { display:flex; }
+.items-center { align-items:center; }
+.justify-between { justify-content:space-between; }
+.gap-3 > * + * { margin-left:12px; }
+.grid { display:grid; }
+.grid-cols-1 { grid-template-columns: 1fr; }
+@media(min-width:640px){ .sm\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); } }
+@media(min-width:1024px){ .lg\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); } }

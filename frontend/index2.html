@@ -1,0 +1,23 @@
+<!-- index.html or App component -->
+<div id="listing-container">
+  <h2>Items</h2>
+  <div>
+    <label>Category: <select id="category-filter">
+      <option value="">All</option>
+      <option value="Perfume">Perfume</option>
+      <option value="Accessory">Accessory</option>
+    </select></label>
+
+    <label>Max Price: <input type="number" id="price-filter" /></label>
+    <button id="filter-btn">Apply Filters</button>
+  </div>
+  <div id="items"></div>
+</div>
+
+<hr/>
+
+<div id="cart-container">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+  <p id="cart-total"></p>
+</div>
